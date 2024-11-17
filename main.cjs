@@ -12,6 +12,7 @@ const pinata = new PinataSDK({
 import { PinataSDK } from "pinata";
 
 const pinata = new PinataSDK({
+
   pinataJwt: process.env.PINATA_JWT!,
   pinataGateway: "amethyst-neat-landfowl-394.mypinata.cloud",
 });
