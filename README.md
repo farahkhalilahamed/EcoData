@@ -1,17 +1,8 @@
-# EcoData
-HackUTD 2024 Project
+# React + Vite
 
-testing 1 2 3
-testomg 234234243234
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-# GIt cheat sheet - https://tldr.inbrowser.app/pages/common/git-commit, https://about.gitlab.com/images/press/git-cheat-sheet.pdf 
-1. git pull
-2. git add .
-3. git commit -m "Commit message"
-4. git push
+Currently, two official plugins are available:
 
-## Merge conflict
-1. git stash
-2. git pull
-3. git stash apply
-
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
